@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Learning testNG]">
+  <test name="Calculator_Google(failed)">
+    <classes>
+      <class name="Grid1.Calculator_Google">
+        <methods>
+          <include name="before"/>
+          <include name="after"/>
+          <include name="doCalculation"/>
+        </methods>
+      </class> <!-- Grid1.Calculator_Google -->
+    </classes>
+  </test> <!-- Calculator_Google(failed) -->
+</suite> <!-- Failed suite [Learning testNG] -->

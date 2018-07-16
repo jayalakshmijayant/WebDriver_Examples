@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestcasesABC">
+	<test name="TestA" allow-return-values="true">
+		<classes>
+			<class name="com.qtpselenium.core.ddf.testcases.TestcaseA" />
+		</classes>
+	</test>
+	<test name="TestB" allow-return-values="true">
+		<classes>
+			<class name="com.qtpselenium.core.ddf.testcases.TestcaseB" />
+		</classes>
+	</test>
+	<test name="TestC" allow-return-values="true">
+		<classes>
+			<class name="com.qtpselenium.core.ddf.testcases.TestcaseC" />
+		</classes>
+	</test>
+</suite>

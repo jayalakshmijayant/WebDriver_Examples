@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35083" started-at="2018-02-05T05:24:49Z" finished-at="2018-02-05T05:25:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35083" started-at="2018-02-05T05:24:49Z" finished-at="2018-02-05T05:25:24Z">
+      <class name="com.qtpselenium.core.ddf.testcases.TestcaseB">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qtpselenium.core.ddf.testcases.TestcaseB@64c87930]" name="init" is-config="true" duration-ms="17" started-at="2018-02-04T23:24:50Z" finished-at="2018-02-04T23:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testB(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.core.ddf.testcases.TestcaseB@64c87930]" name="testB" duration-ms="14362" started-at="2018-02-04T23:24:51Z" data-provider="getSuiteBData" finished-at="2018-02-04T23:25:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Todays news]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.core.ddf.testcases.TestcaseB@64c87930]" name="quit" is-config="true" duration-ms="362" started-at="2018-02-04T23:25:05Z" finished-at="2018-02-04T23:25:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qtpselenium.core.ddf.testcases.TestcaseB@64c87930]" name="init" is-config="true" duration-ms="0" started-at="2018-02-04T23:25:05Z" finished-at="2018-02-04T23:25:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testB(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.core.ddf.testcases.TestcaseB@64c87930]" name="testB" duration-ms="9736" started-at="2018-02-04T23:25:05Z" data-provider="getSuiteBData" finished-at="2018-02-04T23:25:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Milwaukee city]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.core.ddf.testcases.TestcaseB@64c87930]" name="quit" is-config="true" duration-ms="77" started-at="2018-02-04T23:25:15Z" finished-at="2018-02-04T23:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qtpselenium.core.ddf.testcases.TestcaseB@64c87930]" name="init" is-config="true" duration-ms="0" started-at="2018-02-04T23:25:15Z" finished-at="2018-02-04T23:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="testB(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.core.ddf.testcases.TestcaseB@64c87930]" name="testB" duration-ms="39" started-at="2018-02-04T23:25:15Z" data-provider="getSuiteBData" finished-at="2018-02-04T23:25:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H4 EAD News]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping testcase as runmode is N :TC3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping testcase as runmode is N :TC3at com.qtpselenium.core.ddf.testcases.TestcaseB.testB(TestcaseB.java:33)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.core.ddf.testcases.TestcaseB@64c87930]" name="quit" is-config="true" duration-ms="36" started-at="2018-02-04T23:25:15Z" finished-at="2018-02-04T23:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qtpselenium.core.ddf.testcases.TestcaseB@64c87930]" name="init" is-config="true" duration-ms="1" started-at="2018-02-04T23:25:15Z" finished-at="2018-02-04T23:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testB(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.core.ddf.testcases.TestcaseB@64c87930]" name="testB" duration-ms="9146" started-at="2018-02-04T23:25:15Z" data-provider="getSuiteBData" finished-at="2018-02-04T23:25:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H1B Extension news]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.core.ddf.testcases.TestcaseB@64c87930]" name="quit" is-config="true" duration-ms="37" started-at="2018-02-04T23:25:24Z" finished-at="2018-02-04T23:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qtpselenium.core.ddf.testcases.TestcaseB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

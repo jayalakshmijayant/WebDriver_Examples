@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [TestcasesABC]">
+  <test name="TestC(failed)">
+    <classes>
+      <class name="com.qtpselenium.core.ddf.testcases.TestcaseC">
+        <methods>
+          <include name="testC"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qtpselenium.core.ddf.testcases.TestcaseC -->
+    </classes>
+  </test> <!-- TestC(failed) -->
+</suite> <!-- Failed suite [TestcasesABC] -->
